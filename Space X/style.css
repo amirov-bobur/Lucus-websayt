@@ -1,0 +1,118 @@
+:root{
+    --sarlavha-color:#fff;
+    --background-color: #010001;
+    --footer-color:rgba(128, 128, 128, 1);
+    --qoshimcha-color:rgba(178, 176, 178, 1);
+    --font:'Roboto', sans-serif;
+    --hover-color:#241463;
+    --aktive-color:#9F0D7F;
+}
+*{
+    box-sizing: border-box;
+    transition: .3s ;
+}
+body{
+    background: var(--background-color);
+    margin: 0;
+    margin-left: 40px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;;
+}
+.container{
+    max-width: 1440px;
+    width: 100%;
+    margin-inline: auto;
+    padding-inline:170px; ;
+    }
+    nav{
+        display: inline-block;
+        text-align: right;
+        width: calc(100% - 200px);
+    }
+    .img{
+        
+        padding:20px;
+        margin-left: 20px;
+        
+    }
+    
+    .site-nav-link{
+        color: var(--sarlavha-color);
+        font-family: var(--font);
+        font-size: 18px;
+      font-weight: 400;
+        text-decoration: none;
+        align-items: center;
+        line-height: normal ;
+        letter-spacing: normal;
+        margin-right: 90px;
+        
+        margin-top: 20px;
+    }
+    .site-nav-link:hover{
+        color: var(--hover-color);
+    }
+    .site-nav-link:active{
+        opacity: 0,6;
+    }
+
+    .site-nav-list{
+        color: var(--qoshimcha-color);
+        font-family: var(--font);
+        text-decoration: none;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-left: 30px;
+        
+    }
+    .site-nav-list:hover{
+        color: var(--hover-color);
+    }
+    .site-nav-list:active{
+        opacity: 0,6;
+    }
+    .card-text{
+        color: var(--sarlavha-color);
+        display: flex;
+        align-items: center;
+    }
+    .card-title{
+        color:var(--sarlavha-color) ;
+        display: flex;
+        align-items: center;
+    }
+    .top-card {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .container {
+
+    }
+    .top-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .card-title {
+    
+        color: #FFF;
+text-align: center;
+font-family:Roboto;
+font-size: 64px;
+
+font-weight: 400;
+
+    }
+    .card-text {
+        color: #FFF;
+text-align: center;
+font-family:Roboto;
+font-size: 16px;
+font-weight: 300;
+line-height: 130%; 
+text-transform: lowercase;
+margin-left: auto;
+    }
